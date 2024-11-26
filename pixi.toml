@@ -1,0 +1,30 @@
+[project]
+authors = ["henrik ekeus<henrik.ekeus@gmail.com>"]
+channels = ["conda-forge", "apple"]
+description = "Setup for tensorflow and keras"
+name = "vae-for-markets"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[system-requirements]
+macos = "15.1.1"
+
+[tasks]
+clean_install_verify = "pixi clean && rm pixi.lock && pixi install && .pixi/envs/default/bin/python verify_install.py"
+
+[dependencies]
+python = ">=3.11,<3.12"
+pixi-pycharm = ">=0.0.8,<0.0.9"
+
+
+[pypi-dependencies]
+tensorflow = ">=2.17.0,<2.18"
+tensorflow-metal = ">=1.1.0,<2" # Limitting facor: 1.1.0 is the latest, which doesn't work with python 3.12
+keras = ">=3, <4"
+
+
+
+
+
+
+
