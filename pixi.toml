@@ -19,7 +19,7 @@ pixi-pycharm = ">=0.0.8,<0.0.9"
 
 [pypi-dependencies]
 tensorflow = ">=2.17.0,<2.18"
-tensorflow-metal = ">=1.1.0,<2" # Limitting facor: 1.1.0 is the latest, which doesn't work with python 3.12
+tensorflow-metal = ">=1.1.0,<2" # Limitting factor: 1.1.0 is the latest, which doesn't work with python 3.12
 keras = ">=3, <4"
 
 
