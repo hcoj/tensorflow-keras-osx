@@ -1,8 +1,8 @@
 [project]
 authors = ["henrik ekeus<henrik.ekeus@gmail.com>"]
 channels = ["conda-forge", "apple"]
-description = "Setup for tensorflow and keras"
-name = "vae-for-markets"
+description = "Setup for Tensorflow and Keras for MacOS Sequia"
+name = "tensorflow-keras-osx"
 platforms = ["osx-arm64"]
 version = "0.1.0"
 
